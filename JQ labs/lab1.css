@@ -1,0 +1,44 @@
+.titles{
+  text-align: center;
+  font-size: 25px
+}
+
+/*.tables{*/
+/*  text */
+/*}*/
+
+.buttons {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  
+}
+
+.container{
+  
+  display: flex;
+  border: 1px solid red;
+  height:500px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /*width: 550px;*/
+  
+}
+
+.container div {
+  display: flex;
+  width: 30%;
+  height: 100px;
+  border: 2px solid;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.hidden{
+  display: none;
+}
+
