@@ -1,3 +1,7 @@
+html{
+  background-color: pink;
+}
+
 .titles{
   text-align: center;
   font-size: 25px
@@ -27,6 +31,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: white
 }
 
 .row div {
@@ -39,6 +44,7 @@
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
+  ;
 }
 
 .formContainer{
@@ -54,14 +60,21 @@
   display: flex;
   flex-direction: column;
   width: 350px;
-  height: 300px;
+  height: 320px;
   text-align: center;
+  align-content: center;
   
 }
 .form p{
   color: red;
-  text: bold;
+
 }
+.close-classic:after {
+  content: 'X'; /* ANSI X letter */
+}
+
+
+
 /*#close:before {*/
 /*  content: "✖";*/
 /*  border: 1px solid gray;*/
